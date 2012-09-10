@@ -8,6 +8,7 @@
 
 #import "Yozio.h"
 #import "ASIHTTPRequest.h"
+#import "Reachability.h"
 
 #define kYozioTrackedKey @"yozio.tracked"
 
@@ -15,6 +16,11 @@
 
 +(void) trackInstallWithAppKey:(NSString*)key {
     if ([Yozio isTracked]) {
+        return;
+    }
+    
+    if (![Reachability reachabilityWithHostname:@"yoz.io"]){
+        NSLog(@"[Yozio] yoz.io not reachable!");
         return;
     }
 
