@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11C473742DE14735BF84A567 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0F6BA3D5E9454EB5480D7B /* libPods.a */; };
 		542F4AED15FD9CE700046CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4AEC15FD9CE700046CA9 /* UIKit.framework */; };
 		542F4AEF15FD9CE700046CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4AEE15FD9CE700046CA9 /* Foundation.framework */; };
 		542F4AF115FD9CE700046CA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */; };
 		542F4AF715FD9CE700046CA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 542F4AF515FD9CE700046CA9 /* InfoPlist.strings */; };
 		542F4AF915FD9CE700046CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F4AF815FD9CE700046CA9 /* main.m */; };
 		542F4AFD15FD9CE700046CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F4AFC15FD9CE700046CA9 /* AppDelegate.m */; };
+		542F4B0E15FD9DC900046CA9 /* Yozio.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F4B0D15FD9DC900046CA9 /* Yozio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0F6BA3D5E9454EB5480D7B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		542F4AE815FD9CE700046CA9 /* YozioAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YozioAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		542F4AEC15FD9CE700046CA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		542F4AEE15FD9CE700046CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		542F4AEC15FD9CE700046CA9 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		542F4AEE15FD9CE700046CA9 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		542F4AF415FD9CE700046CA9 /* YozioAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YozioAPI-Info.plist"; sourceTree = "<group>"; };
 		542F4AF615FD9CE700046CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		542F4AF815FD9CE700046CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		542F4AFA15FD9CE700046CA9 /* YozioAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YozioAPI-Prefix.pch"; sourceTree = "<group>"; };
 		542F4AFB15FD9CE700046CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		542F4AFC15FD9CE700046CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		542F4B0C15FD9DC900046CA9 /* Yozio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Yozio.h; path = Classes/Yozio.h; sourceTree = "<group>"; };
+		542F4B0D15FD9DC900046CA9 /* Yozio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Yozio.m; path = Classes/Yozio.m; sourceTree = "<group>"; };
+		BD6E1229FFFD45029593A8DE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 				542F4AED15FD9CE700046CA9 /* UIKit.framework in Frameworks */,
 				542F4AEF15FD9CE700046CA9 /* Foundation.framework in Frameworks */,
 				542F4AF115FD9CE700046CA9 /* CoreGraphics.framework in Frameworks */,
+				11C473742DE14735BF84A567 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,7 @@
 				542F4AF215FD9CE700046CA9 /* YozioAPI */,
 				542F4AEB15FD9CE700046CA9 /* Frameworks */,
 				542F4AE915FD9CE700046CA9 /* Products */,
+				BD6E1229FFFD45029593A8DE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +73,7 @@
 				542F4AEC15FD9CE700046CA9 /* UIKit.framework */,
 				542F4AEE15FD9CE700046CA9 /* Foundation.framework */,
 				542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */,
+				2B0F6BA3D5E9454EB5480D7B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,6 +81,7 @@
 		542F4AF215FD9CE700046CA9 /* YozioAPI */ = {
 			isa = PBXGroup;
 			children = (
+				542F4B0A15FD9DB600046CA9 /* Classes */,
 				542F4AFB15FD9CE700046CA9 /* AppDelegate.h */,
 				542F4AFC15FD9CE700046CA9 /* AppDelegate.m */,
 				542F4AF315FD9CE700046CA9 /* Supporting Files */,
@@ -90,6 +100,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		542F4B0A15FD9DB600046CA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				542F4B0C15FD9DC900046CA9 /* Yozio.h */,
+				542F4B0D15FD9DC900046CA9 /* Yozio.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,6 +119,7 @@
 				542F4AE415FD9CE700046CA9 /* Sources */,
 				542F4AE515FD9CE700046CA9 /* Frameworks */,
 				542F4AE615FD9CE700046CA9 /* Resources */,
+				8B3B2B2E2CF34DF3ABD2969A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +167,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B3B2B2E2CF34DF3ABD2969A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		542F4AE415FD9CE700046CA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,6 +191,7 @@
 			files = (
 				542F4AF915FD9CE700046CA9 /* main.m in Sources */,
 				542F4AFD15FD9CE700046CA9 /* AppDelegate.m in Sources */,
+				542F4B0E15FD9DC900046CA9 /* Yozio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +260,7 @@
 		};
 		542F4B0115FD9CE700046CA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6E1229FFFD45029593A8DE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YozioAPI/YozioAPI-Prefix.pch";
@@ -233,6 +272,7 @@
 		};
 		542F4B0215FD9CE700046CA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6E1229FFFD45029593A8DE /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YozioAPI/YozioAPI-Prefix.pch";
@@ -261,6 +301,7 @@
 				542F4B0215FD9CE700046CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
