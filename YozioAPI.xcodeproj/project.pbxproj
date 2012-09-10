@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542F4AED15FD9CE700046CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4AEC15FD9CE700046CA9 /* UIKit.framework */; };
+		542F4AEF15FD9CE700046CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4AEE15FD9CE700046CA9 /* Foundation.framework */; };
+		542F4AF115FD9CE700046CA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */; };
+		542F4AF715FD9CE700046CA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 542F4AF515FD9CE700046CA9 /* InfoPlist.strings */; };
+		542F4AF915FD9CE700046CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F4AF815FD9CE700046CA9 /* main.m */; };
+		542F4AFD15FD9CE700046CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542F4AFC15FD9CE700046CA9 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		542F4AE815FD9CE700046CA9 /* YozioAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YozioAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542F4AEC15FD9CE700046CA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		542F4AEE15FD9CE700046CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		542F4AF415FD9CE700046CA9 /* YozioAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YozioAPI-Info.plist"; sourceTree = "<group>"; };
+		542F4AF615FD9CE700046CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		542F4AF815FD9CE700046CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		542F4AFA15FD9CE700046CA9 /* YozioAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YozioAPI-Prefix.pch"; sourceTree = "<group>"; };
+		542F4AFB15FD9CE700046CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		542F4AFC15FD9CE700046CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542F4AE515FD9CE700046CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F4AED15FD9CE700046CA9 /* UIKit.framework in Frameworks */,
+				542F4AEF15FD9CE700046CA9 /* Foundation.framework in Frameworks */,
+				542F4AF115FD9CE700046CA9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542F4ADD15FD9CE700046CA9 = {
+			isa = PBXGroup;
+			children = (
+				542F4AF215FD9CE700046CA9 /* YozioAPI */,
+				542F4AEB15FD9CE700046CA9 /* Frameworks */,
+				542F4AE915FD9CE700046CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542F4AE915FD9CE700046CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542F4AE815FD9CE700046CA9 /* YozioAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542F4AEB15FD9CE700046CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				542F4AEC15FD9CE700046CA9 /* UIKit.framework */,
+				542F4AEE15FD9CE700046CA9 /* Foundation.framework */,
+				542F4AF015FD9CE700046CA9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		542F4AF215FD9CE700046CA9 /* YozioAPI */ = {
+			isa = PBXGroup;
+			children = (
+				542F4AFB15FD9CE700046CA9 /* AppDelegate.h */,
+				542F4AFC15FD9CE700046CA9 /* AppDelegate.m */,
+				542F4AF315FD9CE700046CA9 /* Supporting Files */,
+			);
+			path = YozioAPI;
+			sourceTree = "<group>";
+		};
+		542F4AF315FD9CE700046CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				542F4AF415FD9CE700046CA9 /* YozioAPI-Info.plist */,
+				542F4AF515FD9CE700046CA9 /* InfoPlist.strings */,
+				542F4AF815FD9CE700046CA9 /* main.m */,
+				542F4AFA15FD9CE700046CA9 /* YozioAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542F4AE715FD9CE700046CA9 /* YozioAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542F4B0015FD9CE700046CA9 /* Build configuration list for PBXNativeTarget "YozioAPI" */;
+			buildPhases = (
+				542F4AE415FD9CE700046CA9 /* Sources */,
+				542F4AE515FD9CE700046CA9 /* Frameworks */,
+				542F4AE615FD9CE700046CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YozioAPI;
+			productName = YozioAPI;
+			productReference = 542F4AE815FD9CE700046CA9 /* YozioAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542F4ADF15FD9CE700046CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ignition Soft";
+			};
+			buildConfigurationList = 542F4AE215FD9CE700046CA9 /* Build configuration list for PBXProject "YozioAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 542F4ADD15FD9CE700046CA9;
+			productRefGroup = 542F4AE915FD9CE700046CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542F4AE715FD9CE700046CA9 /* YozioAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542F4AE615FD9CE700046CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F4AF715FD9CE700046CA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542F4AE415FD9CE700046CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F4AF915FD9CE700046CA9 /* main.m in Sources */,
+				542F4AFD15FD9CE700046CA9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		542F4AF515FD9CE700046CA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542F4AF615FD9CE700046CA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542F4AFE15FD9CE700046CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		542F4AFF15FD9CE700046CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542F4B0115FD9CE700046CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YozioAPI/YozioAPI-Prefix.pch";
+				INFOPLIST_FILE = "YozioAPI/YozioAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		542F4B0215FD9CE700046CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YozioAPI/YozioAPI-Prefix.pch";
+				INFOPLIST_FILE = "YozioAPI/YozioAPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542F4AE215FD9CE700046CA9 /* Build configuration list for PBXProject "YozioAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F4AFE15FD9CE700046CA9 /* Debug */,
+				542F4AFF15FD9CE700046CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542F4B0015FD9CE700046CA9 /* Build configuration list for PBXNativeTarget "YozioAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F4B0115FD9CE700046CA9 /* Debug */,
+				542F4B0215FD9CE700046CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542F4ADF15FD9CE700046CA9 /* Project object */;
+}
