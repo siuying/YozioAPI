@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.authors = {'Francis Chong' => 'francis@ignition.hk'}
   s.source = { :git => 'git://github.com/siuying/YozioAPI.git', :tag => '0.1.0' }
   s.source_files = 'YozioAPI/Classes'
-  pod 'ASIHTTPRequest'
+  s.dependency 'ASIHTTPRequest'
 end
