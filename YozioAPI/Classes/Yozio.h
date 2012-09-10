@@ -10,8 +10,10 @@
 
 @interface Yozio : NSObject
 
+// Track installation with supplied app key, if this device has not been tracked
 +(void) trackInstallWithAppKey:(NSString*)key;
 
+// If this device has been tracked
 +(BOOL) isTracked;
 
 @end
